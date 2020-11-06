@@ -1,0 +1,1160 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Assistant', sans-serif;
+  font-size: 10px;
+  overflow-x: hidden;
+  direction: rtl;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 15rem;
+  background: #ffffff;
+  font-size: 14px;
+  line-height: 1.42;
+}
+
+header {
+  min-height: 1rem;
+  background: #213a7f;
+}
+
+.three-links {
+  list-style: none;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.three-links li {
+  display: none;
+  vertical-align: middle;
+}
+
+.three-links-separator {
+  display: none;
+  width: 0.1rem;
+  height: 1.5rem;
+  background-color: #ffffff;
+  margin: 0.5rem 0.5rem 0;
+}
+
+.search-left {
+  display: none;
+}
+
+.section-first {
+  padding-top: 1.9rem;
+}
+
+.centered-flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__right-logo {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nav-toggle {
+  display: inline-block;
+  margin-left: 1rem;
+  position: relative;
+  top: -0.5rem;
+}
+
+.toggle-button-icon {
+  width: 40px;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.toggle-button-icon span {
+  display: block;
+  height: 5px;
+  background-color: #213a7f;
+  border-radius: 30px;
+}
+
+.toggle-list,
+.inner-toggle-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.toggle-list-item,
+.inner-toggle-list-item {
+  padding: 1rem 1.7rem 1rem 0;
+}
+
+.toggle-list-item a,
+.inner-toggle-list-item {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.9rem;
+}
+
+.toggle-list a:hover {
+  text-decoration: underline;
+  color: #23527c;
+}
+
+.toggle-list-item a .arrow-icon {
+  display: inline-block;
+  margin-right: 0.3rem;
+}
+
+.toggle-list-item a .arrow-icon img {
+  vertical-align: middle;
+}
+
+.toggle-list-item a .caret {
+  display: none;
+}
+
+.inner-toggle-list-item {
+  border-bottom: 1px dashed #aad6be;
+}
+
+.soldier-tag {
+  display: none;
+}
+
+.banner {
+  background: linear-gradient(155deg, #8d25aa, #1046a1);
+  margin-top: 0.5rem;
+  padding: 2.5rem 0;
+}
+
+.banner-text {
+  color: #ffffff;
+  font-size: 6.4vw;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1;
+}
+
+.section-second {
+  padding-top: 2rem;
+  background-color: #f5f8f9;
+}
+
+.section-second h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color: #333333;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.courses-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4.3rem;
+}
+
+.courses-list > a {
+  border: 1px solid rgba(204, 204, 204, 0.5);
+  margin-bottom: 0.4rem;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #333333;
+}
+
+.courses-list > a:hover {
+  opacity: 0.7;
+}
+
+.course {
+  padding: 0.5rem 0;
+  max-width: 80%;
+}
+
+.course-icon {
+  width: 4rem;
+  min-width: 4rem;
+  height: 4rem;
+  min-height: 4rem;
+  margin-right: 1rem;
+}
+
+.course-seperator {
+  width: 0.4rem;
+  min-width: 0.4rem;
+  height: 3.5rem;
+  margin: 0 1rem;
+  border-radius: 1rem;
+}
+
+.arrow {
+  width: 1rem;
+  height: 2rem;
+  min-width: 1rem;
+  margin-left: 1rem;
+}
+
+.contact-information {
+  display: none;
+}
+
+.bussines-section {
+  margin-top: 1rem;
+  display: flex;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.bussines-section-main {
+  display: flex;
+  width: 50%;
+  padding: 1rem;
+}
+
+.bussines-section-right {
+  background: transparent linear-gradient(252deg, #ffffff 0%, #f5f7ff 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.bussines-section-left {
+  background-color: white;
+}
+
+.bussines-section-icon {
+  text-align: center;
+  padding: 1rem 1.5rem;
+  width: 45%;
+}
+
+.bussines-section-icon img {
+  width: 5.7rem;
+  height: 5.7rem;
+  margin-top: 3rem;
+}
+
+.bussines-section-text {
+  width: 55%;
+}
+
+.bussines-section-text h3 {
+  line-height: 1.1;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: right;
+  color: rgb(51, 51, 51);
+}
+
+.bussines-section-text p {
+  line-height: 1.1;
+  font-size: 1.8rem;
+  color: #373737;
+  margin: 0 10% 0 5%;
+}
+
+.bussines-section-text a {
+  color: #213a7f;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.section-third {
+  position: relative;
+  background: url('https://www.hackeru.co.il/assets/site/images/bg_4.png')
+    no-repeat;
+  background-size: cover;
+  padding: 2rem 0 10rem 0;
+  z-index: -1;
+}
+
+.section-third .advantages > h3 {
+  margin-top: 0;
+  font-size: 3.1rem;
+  margin-bottom: 4rem;
+  color: #333;
+}
+
+.advantages {
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+.advantage {
+  margin-bottom: 4.7rem;
+}
+
+.advantage-icon {
+  width: 5rem;
+  height: 6.3rem;
+  margin-top: 1.5rem;
+  display: inline-block;
+}
+
+.advantage-text h3,
+.advantage-text p {
+  color: #333333;
+}
+
+.advantage-text > h3 {
+  margin: 0;
+  font-size: 2.1rem;
+  display: inline-block;
+}
+
+.advantage-text p {
+  margin-top: 0.2rem;
+  font-size: 1.8rem;
+}
+
+.advantage-text a {
+  color: #213a7f;
+  font-size: 1.8rem;
+}
+
+.video {
+  width: 92vw;
+  max-width: 30rem;
+  margin: 0 auto 7.5rem auto;
+  padding-bottom: 2rem;
+  position: relative;
+  top: -11rem;
+  box-shadow: 3px 3px 7px 0 rgba(139, 145, 147, 0.4);
+}
+
+.video a img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.video span {
+  color: #213a7f;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-right: 1rem;
+}
+
+.video span img {
+  position: relative;
+  top: -0.6rem;
+}
+
+.section-fourth {
+  color: #333333;
+}
+
+.section-fourth h3,
+.section-fourth p {
+  max-width: 30rem;
+  margin: 0 auto 1rem;
+}
+
+.section-fourth h3 {
+  font-size: 3.1rem;
+}
+
+.section-fourth p {
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.section-fourth-process {
+  display: none;
+}
+
+.mobile-dial-wrapper {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: 6rem;
+  bottom: 0;
+}
+
+.mobile-dial-wrapper a.desktop-version {
+  display: none;
+}
+
+.mobile-dial-wrapper a {
+  width: 100%;
+  text-decoration: none;
+}
+
+.mobile-dial-wrapper a:not(:last-of-type) {
+  border-left: 1px solid white;
+}
+
+.green-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #25d366;
+  height: 100%;
+}
+
+.green-box img {
+  width: 2.7rem;
+  height: 3rem;
+  margin-left: 1rem;
+}
+
+.green-box span {
+  color: #ffffff;
+  font-size: 2.2rem;
+}
+
+@media (max-width: 400px) {
+  .bussines-section-main {
+    flex-direction: column;
+  }
+
+  .bussines-section-icon {
+    padding-bottom: 0;
+    width: 100%;
+    text-align: right;
+  }
+
+  .bussines-section-text {
+    width: 80%;
+  }
+
+  .bussines-section-text h3 {
+    margin-top: 0.5rem;
+  }
+
+  .bussines-section-text p {
+    margin: 0;
+  }
+}
+
+@media (max-width: 330px) {
+  .green-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .green-box img {
+    width: 11vw;
+    height: 11vw;
+    max-width: 2.2rem;
+    max-height: 2.2rem;
+    margin: 1rem 0 0 0;
+  }
+
+  .green-box span {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 226px) {
+  .bussines-section-icon {
+    padding: 0;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .bussines-section-icon img {
+    width: 25vw;
+    height: 25vw;
+  }
+
+  .bussines-section-text p {
+    font-size: 8vw;
+  }
+
+  .bussines-section-text h3 {
+    font-size: 7vw;
+  }
+}
+
+@media (max-width: 200px) {
+  .courses-list img.arrow {
+    display: none;
+  }
+  .mobile-dial-wrapper span {
+    display: none;
+  }
+}
+
+@media (min-width: 480px) {
+  .three-links {
+    padding: 1.3rem 0 1rem;
+  }
+
+  .three-links .link:nth-of-type(-n + 4) {
+    display: inline-block;
+  }
+
+  .three-links-separator:nth-of-type(-n + 3) {
+    display: inline-block;
+  }
+
+  .three-links a {
+    font-size: 1.6rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  .three-links a:hover {
+    border-bottom: 2px solid white;
+  }
+
+  .banner-text {
+    font-size: 3.5vw;
+  }
+
+  .banner-text span {
+    font-size: 4.5vw;
+    line-height: 1.2;
+  }
+
+  .section-second > h3 {
+    font-size: 4rem;
+  }
+
+  .courses-list {
+    display: block;
+    margin: 4rem auto 4.3rem;
+    text-align: center;
+  }
+
+  .courses-list > a {
+    display: inline-block;
+    border: none;
+    width: 18rem;
+    height: 17.5rem;
+    margin: 0;
+    padding: 0 1.2rem;
+    margin: 0 0.32rem;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+  }
+
+  .course-container {
+    display: block;
+  }
+
+  .course {
+    flex-direction: column;
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .course-icon {
+    margin: 0;
+  }
+
+  .course-seperator {
+    width: 3.5rem;
+    height: 0.4rem;
+    margin: 1rem 0 0;
+  }
+
+  .course-name {
+    text-align: center;
+    margin: 0.5rem 0 0;
+  }
+
+  .courses-list a .arrow {
+    display: none;
+  }
+
+  .section-third .advantages > h3 {
+    font-size: 4rem;
+  }
+
+  .section-fourth h3 {
+    font-size: 4.4rem;
+  }
+}
+
+@media (min-width: 960px) {
+  .header-wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 944px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .three-links {
+    margin: 0;
+  }
+
+  .three-links li {
+    display: inline-block;
+  }
+
+  .link.bold {
+    font-weight: 700;
+  }
+
+  .link.bold a span {
+    font-size: 1.3rem;
+  }
+
+  .search-left {
+    display: inline-block;
+    height: 5rem;
+    margin-left: 0;
+  }
+
+  .search-left form {
+    display: flex;
+    align-items: center;
+    background-color: #122046;
+  }
+
+  .form-separator {
+    width: 0.1rem;
+    height: 1.5rem;
+    background-color: white;
+    position: relative;
+    top: -0.2rem;
+  }
+
+  .search-left input,
+  .search-left button {
+    border: none;
+    background: #122046;
+    height: 5rem;
+  }
+
+  .search-left input {
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-right: 1rem;
+    width: 18.1rem;
+    color: #ffffff;
+  }
+
+  .search-left input:focus {
+    outline: none;
+  }
+
+  .search-left button {
+    cursor: pointer;
+    width: 3.8rem;
+    padding: 0;
+    position: relative;
+    top: -0.4rem;
+  }
+
+  .nav__right-logo {
+    margin: 0;
+  }
+
+  .nav-toggle-mobile {
+    display: none;
+  }
+
+  .section-first-content-wrapper {
+    display: flex;
+    width: 944px;
+    margin: 0 auto;
+    background-color: white;
+    white-space: nowrap;
+  }
+
+  .toggle-list {
+    display: block !important;
+    position: relative;
+    top: 1.5rem;
+    margin-right: 0.6rem;
+  }
+
+  .toggle-list-item {
+    position: relative;
+    display: inline-block;
+    padding-right: 1.8rem;
+  }
+
+  .toggle-list-item a {
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+
+  .toggle-list-item a .arrow-icon img {
+    display: none;
+  }
+
+  .toggle-list-item a .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 4px dashed;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    vertical-align: middle;
+    margin-right: -0.4rem;
+    position: relative;
+    top: 0.1rem;
+  }
+
+  .toggle-list-item .inner-toggle-list {
+    position: absolute;
+    right: -0.5rem;
+    background-color: #213a7f;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 0.8rem 0 0.3rem 0;
+  }
+
+  .inner-toggle-list-item a,
+  .inner-toggle-list-item {
+    color: #aad6be;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .inner-toggle-list-item {
+    border: none;
+    min-width: fit-content;
+    padding: 0 0.5rem 0 5rem;
+  }
+
+  .inner-toggle-list-item a {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+  }
+
+  .inner-toggle-list-item a:hover {
+    background-color: #aad6be;
+    color: #213a7f;
+    text-decoration: none;
+  }
+
+  .soldier-tag {
+    position: absolute;
+    top: 5rem;
+    left: -0.5rem;
+    display: block;
+    width: 8.6rem;
+    height: 11.6rem;
+    background: url('https://www.hackeru.co.il/assets/site/images/soldier.png')
+      no-repeat;
+    text-align: center;
+    color: #eee;
+    padding-top: 0.5rem;
+  }
+
+  .soldier-tag a {
+    color: inherit;
+    font-size: 1.2rem;
+    display: block;
+    margin-top: 0.5rem;
+  }
+
+  .banner {
+    margin-top: 0.9rem;
+    height: 18rem;
+  }
+
+  .desktop-content {
+    width: 944px;
+    margin: 0 auto;
+  }
+
+  .banner-text {
+    font-size: 3.94rem;
+    width: 73rem;
+    text-align: right;
+    white-space: nowrap;
+    margin-top: 1.5rem;
+    margin-right: 8vh;
+  }
+
+  .banner-text span {
+    font-size: 5.5rem;
+    letter-spacing: 0.03rem;
+  }
+
+  .section-second {
+    padding-top: 6rem;
+    height: 87.7rem;
+  }
+
+  .section-second h3 {
+    font-size: 4.4rem;
+    font-weight: 600;
+    text-align: right;
+  }
+
+  .courses-list {
+    display: inline-block;
+    width: 63rem;
+    text-align: right;
+    vertical-align: top;
+    margin: 1.8rem -1rem 0 0;
+  }
+
+  .courses-list a {
+    width: 14.8rem;
+    height: 15.5rem;
+    padding: 0;
+    font-weight: 600;
+  }
+
+  .contact-information {
+    display: inline-block;
+    width: 30rem;
+    height: 49rem;
+    background: linear-gradient(135deg, #8e24aa 2%, #0d47a1 100%);
+    box-shadow: 3px 3px 7px 0px rgba(139, 145, 147, 0.4);
+    padding: 2.2rem 1.8rem 0 0;
+    white-space: nowrap;
+    vertical-align: top;
+    margin-top: 1.8rem;
+    margin-right: 2rem;
+  }
+
+  .contact-information > span {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  .contact-information form {
+    margin-top: 2.3rem;
+    width: fit-content;
+  }
+
+  .contact-information .form-input {
+    width: 26rem;
+    height: 6rem;
+    margin-bottom: 2.2rem;
+    background-color: #ffffff;
+    color: #373737;
+    padding-right: 0.7rem;
+  }
+
+  .contact-information .form-input :focus {
+    outline: none;
+  }
+
+  .contact-information label {
+    position: relative;
+    display: inline-block;
+    width: 28%;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .contact-information label span {
+    color: #213b7f;
+    position: absolute;
+    left: 0;
+  }
+
+  .contact-information input {
+    border: none;
+    display: inline-block;
+    height: 100%;
+    width: 72%;
+    color: #555555;
+  }
+
+  .contact-information .form-check {
+    height: 3.6rem;
+    white-space: initial;
+  }
+
+  .contact-information .form-check input {
+    display: inline-block;
+    width: 1.3rem;
+    height: 1.3rem;
+    vertical-align: top;
+  }
+
+  .contact-information .form-check label {
+    width: 19rem;
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-right: 0.4rem;
+  }
+
+  .contact-information .privacy-policy {
+    margin: 1.1rem 0 1rem 0;
+    text-align: center;
+  }
+
+  .contact-information .privacy-policy a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.4rem;
+  }
+
+  .contact-information .privacy-policy a:hover {
+    text-decoration: underline;
+  }
+
+  .contact-information button {
+    height: 6rem;
+    background-color: #18ffff;
+    width: 100%;
+    border: none;
+    padding: 0.2rem;
+    cursor: pointer;
+    font-family: inherit;
+  }
+
+  .contact-information button .button-inner-border {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #00b8d4;
+    color: black;
+    font-size: 3.2rem;
+    font-weight: 600;
+    padding-top: 0.45rem;
+    font-weight: 800;
+  }
+
+  .bussines-section {
+    height: 14.5rem;
+    position: relative;
+    z-index: 1;
+    top: 2rem;
+  }
+
+  .bussines-section-main {
+    padding: 0;
+  }
+
+  .bussines-section-text {
+    width: 32.9rem;
+    padding-top: 1.4rem;
+    text-align: right;
+  }
+
+  .bussines-section-text h3 {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    margin-bottom: 0.6rem;
+  }
+
+  .bussines-section-text p {
+    line-height: 1.38rem;
+    font-size: 1.38rem;
+    margin: 0;
+    width: 28.8rem;
+  }
+
+  .bussines-section-icon {
+    padding: 0;
+    width: 14rem;
+  }
+
+  .bussines-section-icon img {
+    margin-top: 4rem;
+  }
+
+  .advantages {
+    max-width: 100%;
+    padding-top: 10rem;
+  }
+
+  .advantage {
+    display: inline-block;
+    width: 46.2rem;
+  }
+
+  .advantage-icon {
+    display: inline-block;
+    margin-left: 1.6rem;
+    margin-top: 1.5rem;
+    vertical-align: top;
+  }
+
+  .advantage-text {
+    display: inline-block;
+    width: 37.5rem;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+  }
+
+  .advantage-text p {
+    width: 32.2rem;
+  }
+
+  .video {
+    left: -21rem;
+    top: -12rem;
+  }
+
+  .section-fourth .desktop-content {
+    margin-top: -21rem;
+  }
+
+  .section-fourth h3,
+  .section-fourth p {
+    text-align: right;
+    max-width: 100%;
+  }
+
+  .section-fourth p {
+    width: 30%;
+    display: inline-block;
+    margin-left: 1.7rem;
+    vertical-align: text-top;
+  }
+
+  .section-fourth-process {
+    display: block;
+  }
+
+  .section-fourth-process h4 {
+    font-size: 3rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .section-fourth-process > div {
+    position: relative;
+    display: inline-block;
+    width: 22rem;
+    height: 31rem;
+    margin-right: 1.7rem;
+    text-align: center;
+  }
+
+  .section-fourth-process > div:not(:last-of-type)::after {
+    content: '\01F890';
+    font-size: 4.5rem;
+    color: #ffffff;
+    position: absolute;
+    right: -1px;
+    top: 2rem;
+  }
+
+  .section-fourth-process .level-1 {
+    margin-right: 0;
+    background-color: rgb(5, 152, 168);
+  }
+
+  .section-fourth-process .level-2 {
+    background-color: rgb(57, 164, 220);
+  }
+
+  .section-fourth-process .level-3 {
+    background-color: rgb(21, 75, 156);
+  }
+
+  .section-fourth-process .level-4 {
+    background-color: rgb(53, 47, 138);
+  }
+
+  .section-fourth-process .num {
+    display: inline-block;
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: 1.7rem;
+    font-size: 4.5rem;
+    color: #0598a8;
+  }
+
+  .level-2 .num {
+    color: rgb(57, 164, 220);
+  }
+
+  .level-3 .num {
+    color: rgb(21, 75, 156);
+  }
+
+  .level-4 .num {
+    color: rgb(53, 47, 138);
+  }
+
+  .section-fourth-process .num span {
+    position: relative;
+    top: -0.4rem;
+  }
+
+  .section-fourth-process div h5 {
+    font-size: 2.6rem;
+    color: #ffffff;
+    margin: 10px 0;
+    font-weight: 500;
+  }
+
+  .section-fourth-process div .line {
+    width: 19.7rem;
+    height: 0.17rem;
+    background-color: #ffffff;
+    margin: 0 auto;
+  }
+
+  .section-fourth-process div p {
+    margin: 1.1rem 0 0 0;
+    width: 85%;
+    color: #ffffff;
+    font-size: 1.7rem;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .section-fourth-process .meeting {
+    display: block;
+    width: 30.02rem;
+    height: 7rem;
+    background-color: #213a7f;
+    padding: 0.3rem;
+    margin: 4.9rem auto;
+    cursor: pointer;
+  }
+
+  .section-fourth-process .meeting-content {
+    border: 2px solid #aad6be;
+    height: 100%;
+    font-size: 2.6rem;
+    color: #ffffff;
+    padding-top: 1rem;
+  }
+
+  .mobile-dial-wrapper {
+    bottom: 2%;
+    right: 1%;
+    width: 26.3rem;
+    height: 4.2rem;
+    background-color: transparent;
+  }
+
+  .mobile-dial-wrapper a:not(:last-of-type) {
+    display: none;
+  }
+
+  .mobile-dial-wrapper a.desktop-version {
+    display: initial;
+  }
+
+  .mobile-dial-wrapper a.desktop-version .green-box {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .mobile-dial-wrapper a.desktop-version .green-box:hover {
+    box-shadow: none;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .mobile-dial-wrapper img:last-of-type {
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-left: 0.5rem;
+  }
+}
